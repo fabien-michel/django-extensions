@@ -9,6 +9,8 @@ a normal one by removing the replaces attribute. This automates the clean up
 procedure outlined at the end of the `Django migration squashing
 documentation`__. Modifies your source tree! Use with care!
 
+Please note that it doesn't replace references to deleted files in other migrations files. You have to do it manually.
+
 __ MigrationSquashingDocs_
 
 Example Usage
